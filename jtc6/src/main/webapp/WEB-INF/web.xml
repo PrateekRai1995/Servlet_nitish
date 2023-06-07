@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <display-name>jtc6</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+  </welcome-file-list>
+  
+  <context-param>
+  	<param-name>State</param-name>
+  	<param-value>UP</param-value>
+  </context-param>
+  
+   <context-param>
+  	<param-name>institute</param-name>
+  	<param-value>Jtc</param-value>
+  </context-param>
+  
+  <context-param>
+  	<param-name>country</param-name>
+  	<param-value>India</param-value>
+  </context-param>
+  
+  <servlet>
+   <servlet-name>demo</servlet-name>
+   <servlet-class>jtc6.demoservlet</servlet-class>
+   
+   
+   <init-param>
+      <param-name>email</param-name>
+      <param-value>jtc@gmail.com</param-value>
+   </init-param>
+   
+   <init-param>
+      <param-name>city</param-name>
+      <param-value>Noida</param-value>
+   </init-param>
+   
+   
+  </servlet>
+  
+  
+  <servlet-mapping>
+  	<servlet-name>demo</servlet-name>
+  	<url-pattern>/mydemo.jtc</url-pattern>
+  </servlet-mapping>
+  
+  
+</web-app>

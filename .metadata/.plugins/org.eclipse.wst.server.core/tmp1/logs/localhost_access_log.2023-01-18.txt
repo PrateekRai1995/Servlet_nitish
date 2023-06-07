@@ -1,0 +1,13 @@
+127.0.0.1 - - [18/Jan/2023:15:56:15 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [18/Jan/2023:15:56:16 +0530] "GET /jtc6/ HTTP/1.1" 200 647
+0:0:0:0:0:0:0:1 - - [18/Jan/2023:15:56:47 +0530] "GET /jtc6/mydemo.jtc?fname=helo&phone=helii HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jan/2023:15:58:59 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [18/Jan/2023:15:59:25 +0530] "GET /jtc6/mydemo.jtc?fname=heheh&phone=nsjofnf HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jan/2023:16:01:41 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [18/Jan/2023:16:01:58 +0530] "GET /jtc6/mydemo.jtc?fname=bidqwdq&phone=bida HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jan/2023:16:08:57 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [18/Jan/2023:16:09:18 +0530] "GET /jtc6/mydemo.jtc?fname=fell&phone=itio HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jan/2023:16:14:58 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [18/Jan/2023:16:16:02 +0530] "GET /jtc6/mydemo.jtc?fname=hello&phone=hello HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jan/2023:16:21:40 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [18/Jan/2023:16:21:48 +0530] "GET /jtc6/mydemo.jtc?fname=hello&phone=hello HTTP/1.1" 200 -
